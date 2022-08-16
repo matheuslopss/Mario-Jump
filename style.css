@@ -37,6 +37,25 @@
     animation: clouds-animation 20s infinite linear;
 }
 
+.btn-reload {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-reload button{
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: 250ms all;
+    cursor: pointer;
+}
+.btn-reload button:hover{
+   transform: scale(1.05);
+}
+
+
 @keyframes pipe-animation{
     from{
         right: -80px;
